@@ -1,0 +1,129 @@
+/* Font */
+
+/* Header Font */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Noto+Serif+TC&family=Pacifico&display=swap');
+
+/* H1 Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC&family=Pacifico&display=swap');
+
+
+/* H5, H6 Font */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+header {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15pt;
+}
+
+h1 {
+    font-family: "Noto Serif TC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    letter-spacing: 10px;
+    color: #563F2E;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: "Noto Serif TC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: #563F2E;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Experience h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Portfolio h2 {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: 600;
+    text-shadow: 3px 3px 6px rgb(135, 135, 135);
+}
+
+.contact p {
+    color: white;
+    margin-block: 20px;
+}
+
+.first-p {
+    text-align: center;
+    margin-top: 0;
+}
+
+.contact p:not(.first-p) {
+    margin-left: 25%;
+}
+
+h3 {
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    font-size: 20px;
+    color: #563F2E;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+    color: #0F4C3A;
+}
+
+h6 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15pt;
+    color: #434343;
+}
+
+p {
+    font-size: 18px;
+    font-family: 微軟正黑體;
+    color: #734338;
+    line-height: 24px;
+    padding: 20px 0;
+    text-align: justify;
+}
+
+.skill-group p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    /* font-weight: bold; */
+    /* line-height: 2; */
+
+}
+
+ul {
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #563F2E;
+    margin-bottom: 5px;
+}
+
+li {
+    font-size: 18px;
+    font-family: 微軟正黑體;
+    color: black;
+    line-height: 2;
+}
